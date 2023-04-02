@@ -130,4 +130,8 @@ header {
     .mobile-menu .login-btn button {
         width: 100%;
     }
+
+    .open {
+        display: block;
+    }
 }
