@@ -1,0 +1,77 @@
+/* Fonte */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+/* CSS Reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header */
+
+header {
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+}
+
+/* Navegação */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+/* Logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #fff;
+}
+
+/* Menu de Navegação */
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+/* Botão de Login */
+
+.login-btn button {
+    border: none;
+    background-color: #0187a7;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.login-btn button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
