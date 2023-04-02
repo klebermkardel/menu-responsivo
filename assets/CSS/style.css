@@ -114,7 +114,7 @@ header {
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding-bottom: 1rem;
+        padding-bottom: 1.5rem;
     }
 
     .mobile-menu .nav-item {
@@ -124,7 +124,7 @@ header {
 
     .mobile-menu .login-btn {
         display: block;
-        padding: 1rem 2 rem;
+        padding: 1rem 2rem;
     }
 
     .mobile-menu .login-btn button {
